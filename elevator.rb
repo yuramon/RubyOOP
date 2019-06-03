@@ -7,7 +7,7 @@ pass = Passengers.new
 elevator_builder = ElevatorBuild.new
 elevator = elevator_builder.elevator_box
 
-puts "-------------------Welcome to ELEVATOR SIMULATOR-------------------\nPlease input mode:\n1 - Elevatr-user\n2 - Programmer\n-------------------------------------------------------------------"
+puts "-------------------Welcome to ELEVATOR SIMULATOR-------------------\nPlease input mode:\n1 - Elevator-user\n2 - Programmer\n-------------------------------------------------------------------"
 mode = gets
 if mode.to_i == 1
   puts 'On which floor are you?'
