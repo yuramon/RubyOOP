@@ -44,7 +44,7 @@ class ElevatorBox
 
   def log_move(ins = '')
     if people.count <= 3
-      if first_engine.on == false
+      unless first_engine.on
         puts "\nFloor #{stay_floor} [door open]"
         puts "Floor #{stay_floor} [total person] #{people.count}"
         first_engine.engine_on
