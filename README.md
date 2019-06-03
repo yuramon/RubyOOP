@@ -57,3 +57,42 @@ Floor 4 [door close] direction UP
   Floor 4 5 
   
 --------------------------
+
+elevator.add_people(pass.add(5))
+
+elevator.control.select_floor(6)
+ 
+elevator.log_move
+
+elevator.free_people(2)
+
+elevator.control.select_floor(2)
+
+elevator.log_move
+
+-------------------Welcome to ELEVATOR SIMULATOR-------------------
+
+Please input mode:
+
+1 - Elevator-user
+2 - Programmer
+-------------------------------------------------------------------
+2
+
+Floor 1 [door open]
+
+Floor 1 [total person] 5
+
+Floor 1 [turn on second engine]
+
+Floor 1 [door close] direction UP
+
+--------------------------
+
+Floor 6 [door open]
+
+Floor 6 [total person] 3
+
+Floor 6 [door close] direction DOWN
+
+--------------------------
